@@ -1,0 +1,56 @@
+
+
+form {
+    width:100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    background-color:#5692eb;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  max-width: 150%;
+  padding: 0 4px;
+}
+
+.button-container > a {
+    width: 130px;
+    height: 120px;
+    float: right;
+    background: lightgray;   
+    margin: 1px;
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.item-ruangaman{
+    height: 150px;
+    width: 100%;
+    background-color: lightgray;
+    margin: 2px;
+}
