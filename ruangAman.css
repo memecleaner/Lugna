@@ -6,17 +6,21 @@ form {
     margin-top: 40px;
     margin-left: 40px;
 }
+.kembali{
+    width: 1px;
+}
 .search {
     padding:8px 15px;
     background:rgba(50, 50, 50, 0.2);
     border:0px solid #dbdbdb;
+    left: -8px;
 }
 .button {
     position:relative;
     padding:6px 15px;
     left:-8px;
-    background-color:#5692eb;
-    color:#fafafa;
+    background-color:#fff2e5;
+    color:black;
 }
 .button:hover  {
     background-color:#fafafa;
@@ -39,7 +43,7 @@ form {
     width: 130px;
     height: 120px;
     float: right;
-    background: lightgray;   
+    background: #fff2e5;   
     margin: 1px;
 }
 .footer{
