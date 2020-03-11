@@ -1,0 +1,26 @@
+.lingkaran{
+    height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+footer{
+    /* margin: 10px; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+*{
+    box-sizing: border-box;
+}
+
+.addnewjurnal{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-left: 80px;
+}
