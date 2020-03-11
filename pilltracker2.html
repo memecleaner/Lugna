@@ -11,16 +11,17 @@
     <title>Lugna</title>
 </head>
 
-<body>
-    <div class="container-sm">
-            <div class="col-xs-12 col-md-6 col-sm-8 col-lg-6 center-block">
-                <br>
-                <h3><button type="button" class="btn btn-light btn-sm" style="margin-right: 20px;">Kembali</button>Pill Tracker<button class="btn btn-light btn-sm" type="button" style="margin-left: 20px;">Simpan</button></h3>
-                <br>
-                </div>
-            </div> 
-        </div>
-          <div class="mainpill" style="margin-left: 20px; margin-right: 20px;">
+<body style="background-color: #fff2e5;">
+    <nav class="container-sm" style="background-color: #fed39f; display: flex;">
+      <div class="header">
+        <h2 style="margin-top: 20px; margin-bottom: 20px;">
+          <a href="pilltracker1.html" class="previous round" style="margin-right: 50px; margin-left: 15px; color: black;">&#8249;</a>
+            Pill Tracker            
+          <a href="pilltracker2.html"><button class="btn btn-sm btn-warning" style="margin-left: 20px;">Simpan</button></a>
+        </h2>
+      </div>
+    </nav>
+          <div class="mainpill" style="margin-left: 20px; margin-right: 20px; margin-top: 20px;">
             <h6>Nama obat:</h6>
             <form action="/action_page.php">
                 <div class="form-group">
@@ -31,8 +32,8 @@
                 <!-- <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 100%; margin-bottom: 15px; text-align: left;" value="">
                   Jenis obat
             </button> -->
-            <h6>Jenis Obat:</h6>
-                <select id="select" style="outline: none;">
+            <h6 style="margin-top: 20px;">Jenis Obat:</h6>
+                <select id="select" style="border-radius: 4px; width: 330px; background-color: white;">
                   <option value="0">Pilih jenis obat</option>
                   <option value="1">Cair</option>
                   <option value="2">Pill</option>
@@ -42,9 +43,9 @@
                 </select>
               </div>
               <div class="dropdown">
-                <h6 style="margin-top: 15px;">Mulai minum obat:</h6><input type="text" id="datepicker"></p>
+                <h6 style="margin-top: 20px;">Mulai minum obat:</h6><input type="text" id="datepicker" style="width: 330px; border-radius: 5px;"></p>
               </div>
-              <h6>Deskripsi:</h6>
+              <h6 style="margin-top: 20px;">Deskripsi:</h6>
               <form action="/action_page.php">
                 <div class="description">
                     <input type="deskripsi" class="form-control" placeholder="Tuliskan deskripsi obat / pemakaian" name="deskripsi">

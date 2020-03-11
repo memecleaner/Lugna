@@ -12,51 +12,59 @@
 </head>
 
 <body>
-    <nav class="container-sm">
+    <nav class="container-sm" style="background-color: #fed39f;">
         <div class="header">
-            <h3 style="margin-top: 10px; margin-bottom: 10px; text-align: center;"><button class="btn btn-light btn-sm" type="button" style="margin-right: 10px;">kembali</button>Emergency call</h3>
+            <h2 style="margin-top: 20px; margin-bottom: 20px; margin-left: 10px;"><a href="Menu.html" class="previous round" style="margin-right: 40px; color: black;">&#8249;</a>Emergency call</h2>
         </div>
     </nav>
-    <div class="card mb-5">
+    <div class="card mb-5" style="background-color: #fff2e5;">
         <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-                <h4>Hotline Cegah bunuh diri</h4>
+            <a href="tel:+62 85814718630">
+            <li class="list-group-item" >
+                <h5 style="color: black;">Hotline Cegah bunuh diri</h5>
                 <p style="font-size: 10px; color: grey;">Memberikan dukungan emosional yang gratis dan rahasia kepada orang orang yang berada dalam krisis bunuh diri</p>
             </li>
             <li class="list-group-item">
-                <h4>Komnas perempuan</h4>
+                <h5 style="color: black;"> perempuan</h5>
                 <p style="font-size: 10px; color: grey;">penegakan HAM perempuan di Indonesia meningkatkan upaya pencegahan dan penanggulangan segala bentuk kekerasan terhadap perempuan dan perlindungan HAM perempuan</p>
             </li>
             <li class="list-group-item">
-                <h4>LBH - APK</h4>
+                <h5 style="color: black;">LBH - APK</h5>
                 <p style="font-size: 10px; color: grey;">Memberikan bantuan hukum pada rakyat miskin buta hukum dan tertindas</p> 
             </li>
             <li class="list-group-item">
-                <h4>Ambulance</h4>
+                <h5 style="color: black;">Ambulance</h5>
                 <p style="font-size: 10px; color: grey;">Ambulan hanya untuk keadaan darurat</p>
             </li>
             <li class="list-group-item">
-                <h4>Cegah bullying</h4>
+                <h5 style="color: black;">Cegah bullying</h5>
             </li>
             <li class="list-group-item">
-                <h4>Teman dekat 1</h4>
+                <h5 style="color: black;">Teman dekat 1</h5>
             </li>
             <li class="list-group-item">
-                <h4>Teman dekat 2</h4>
+                <h5 style="color: black;">Teman dekat 2</h5>
             </li>
             <li class="list-group-item">
-                <h4>Teman dekat 3</h4>
+                <h5 style="color: black;">Teman dekat 3</h5>
             </li>
+            </a>
             <!-- <li class="list-group-item">
                 <h4>&nbsp;</h4>
             </li> -->
         </ul>
     </div>
-    <footer>
-        <button class="btn btn-light btn-lg" type="button">menu</button>
-        <button class="btn btn-light btn-lg" type="button">menu</button>
-        <button class="btn btn-light btn-lg" type="button">menu</button>
-    </footer>
+
+    <script>
+        $(function(){
+            if(navigator.userAgent.match(/(iPhone|Android.*Mobile)/i))
+            {
+                $('a[data-tel]').each(function(){
+                    $(this).prop('href', 'tel:' + $(this).data('tel'));
+                });
+            }
+        })
+        </script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

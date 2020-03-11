@@ -3,3 +3,9 @@ img{
     display: block;
     margin: 0 auto;
 }
+right{
+    right: 0;
+}
+left{
+    left: 0;
+}
