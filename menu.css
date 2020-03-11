@@ -18,3 +18,7 @@ footer{
 *{
     box-sizing: border-box;
 }
+.homebutton{
+    text-align: center;
+}
+
