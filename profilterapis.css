@@ -1,7 +1,6 @@
-img{
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
+body {
+  font-family: Arial;
+  color: white;
 }
 right{
     right: 0;
