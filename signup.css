@@ -1,0 +1,61 @@
+body {
+  background-color: #fcede6;
+}
+
+h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+p {
+  font-size: 3rem;
+}
+
+label {
+  font-size: 3rem;
+  display: block;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0 22px 0;
+  display: inline-block;
+}
+
+/* Add a background color when the inputs get focus */
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #47525e;
+  color: white;
+  padding: 14px 20px;
+  margin: 2rem;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #47525e;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 50%;
+}
