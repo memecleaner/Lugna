@@ -2,30 +2,10 @@ body {
   font-family: Arial;
   color: white;
 }
-
-
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
+right{
+    right: 0;
 }
+left{
+    left: 0;
 
-.left {
-  left: 0;
-}
-
-.right {
-  right: 0;
-  
-}
-.h1{
-    font-size: xx-small;
-    font-family: 'Roboto', sans-serif;
-}
-.example{
-    border-radius: 60%;
 }
