@@ -20,10 +20,7 @@ form {
     position:relative;
     padding:6px 15px;
     left:-8px;
-<<<<<<< HEAD
-=======
 
->>>>>>> f91051cb80f308314a8d4800106e18adc353bacf
     background-color:#Fed39f;
     color:black;
     width: 70px;
@@ -31,10 +28,6 @@ form {
 .button:hover  {
     background-color:#fafafa;
     color:white;
-<<<<<<< HEAD
-=======
-
->>>>>>> f91051cb80f308314a8d4800106e18adc353bacf
 }
 .row {
   display: flex;
@@ -67,9 +60,4 @@ form {
     width: 100%;
     background-color: #F3A462  ;
     margin: 2px;
-<<<<<<< HEAD
 }
-
-=======
-}
->>>>>>> f91051cb80f308314a8d4800106e18adc353bacf
