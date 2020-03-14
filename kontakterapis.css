@@ -2,6 +2,10 @@ a {
     font-size: 16px;;
 }
 #kontak h4 {
+<<<<<<< HEAD
+=======
+
+>>>>>>> f91051cb80f308314a8d4800106e18adc353bacf
     color: black;
 }
 
@@ -13,4 +17,8 @@ a {
     width: 100%;
     display: flex;
     background-position: center;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f91051cb80f308314a8d4800106e18adc353bacf
