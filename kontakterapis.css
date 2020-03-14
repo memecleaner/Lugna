@@ -2,5 +2,16 @@ a {
     font-size: 16px;;
 }
 #kontak h4 {
-    color: greenyellow;
+
+    color: black;
+}
+
+.btn , .blank{
+    flex: 1;
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-position: center;
 }
