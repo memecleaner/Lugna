@@ -12,19 +12,21 @@ form {
 .search {
     padding:8px 15px;
     background:rgba(50, 50, 50, 0.2);
-    border:0px solid #dbdbdb;
+    border:0px solid white;
     left: -8px;
+    background-color: white;
 }
 .button {
     position:relative;
     padding:6px 15px;
     left:-8px;
-    background-color:#fff2e5;
+    background-color:#Fed39f;
     color:black;
+    width: 70px;
 }
 .button:hover  {
     background-color:#fafafa;
-    color:#207cca;
+    color:white;
 }
 .row {
   display: flex;
@@ -55,6 +57,7 @@ form {
 .item-ruangaman{
     height: 150px;
     width: 100%;
-    background-color: lightgray;
+    background-color: #F3A462  ;
     margin: 2px;
 }
+
