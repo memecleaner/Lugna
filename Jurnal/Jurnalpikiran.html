@@ -6,17 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="jurnaltab.css">
 
     <title>Jurnal tab3</title>
   </head>
   <body style="background-color: #fff2e5;  margin-top: 12px;">
     <div class="container-sm">
+      <div class="row d-flex justify-content-around">
             <a href="jurnalmenu.html">
         <button class="btn btn-light btn-md" type="button" style="margin-left: 10px; background-color: #fed39f;">Kembali</button>
       </a>
       <a href="jurnalmenu.html">
         <button class="btn btn-light btn-md" type="button" style="margin-left: 140px; background-color: #fed39f;">Selanjutnya</button>
       </a>
+      </div>
         </div>
         <div class="questions" style="margin: 10px;">
           <div class="konteks" style="text-align: center; margin: 5px;">
@@ -27,8 +30,9 @@
           </div>
           </div>
           <div class="insert" style="margin-left: 30px;">
-            <textarea  cols="37" name="comment" form="usrform" style="height: 450px; background-color: #fff2e5; border: none;">Klik disini untuk berbagi pikiran..
-          </textarea>
+            <div style="position: relative; height: 18em;">
+              <textarea autofocus class="texta" name="" id="#question4" onchange="handleOnChange('#question4')" cols="40" rows="10" placeholder="Ceritakan disini..."></textarea>
+            </div>
           </div>
         </div>
     </div>

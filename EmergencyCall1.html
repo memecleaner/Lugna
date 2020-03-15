@@ -12,13 +12,13 @@
 </head>
 
 <body>
-    <nav class="container-sm" style="background-color: #fed39f;">
+    <nav class="container-sm" style="background-color: #fed39f; position: fixed; left: 0; top: 0; z-index: 10">
         <div class="header">
             <h2 style="margin-top: 20px; margin-bottom: 20px; margin-left: 10px;"><a href="Menu.html" class="previous round" style="margin-right: 40px; color: black;">&#8249;</a>Emergency call</h2>
         </div>
     </nav>
-    <div class="card mb-5" style="background-color: #fff2e5;">
-        <ul class="list-group list-group-flush">
+    <div class="card mb-5" style="background-color: #fff2e5; padding-top: 80px;">
+        <ul class="list-group list-group-flush" onclick="emergencyCall()">
             <a href="tel:+62 85814718630">
             <li class="list-group-item" >
                 <h5 style="color: black;">Hotline Cegah bunuh diri</h5>
@@ -72,5 +72,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 </html>
