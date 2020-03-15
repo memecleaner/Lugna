@@ -1,12 +1,8 @@
-
-
 form {
     width:100%;
-    margin-bottom: 40px;
-    margin-top: 40px;
-    margin-left: 40px;
+    margin: 40px 0;
 }
-.kembali{
+.kembali {
     width: 1px;
 }
 .search {
@@ -20,7 +16,6 @@ form {
     position:relative;
     padding:6px 15px;
     left:-8px;
-
     background-color:#Fed39f;
     color:black;
     width: 70px;
@@ -28,7 +23,6 @@ form {
 .button:hover  {
     background-color:#fafafa;
     color:white;
-
 }
 .row {
   display: flex;
@@ -50,15 +44,19 @@ form {
     background: #fff2e5;   
     margin: 1px;
 }
-.footer{
+.footer {
     position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-.item-ruangaman{
-    height: 150px;
-    width: 100%;
-    background-color: #F3A462  ;
-    margin: 2px;
+.container-fluid > .row > a {
+    padding: 6px
+}
+.item-ruangaman {
+    height: 8rem;
+    background-color: #F3A462;
+    color: white;
+    text-align: center;
+    padding: 16px;
 }

@@ -7,7 +7,6 @@
 </head>
 
 <head>
-
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,11 +26,11 @@
 <body>
 
     <div style="background-color: #fff2e5;">
-        <nav class="container-sm" style="background-color: #fed39f; display: flex;">
+        <nav class="container-fluid" style="background-color: #fed39f; display: flex;">
             <div class="header">
                 <h2 style="margin-top: 20px; margin-bottom: 20px;">
                     <a href="menu.html" class="previous round"
-                        style="margin-right: 50px; margin-left: 15px; color: black;">&#8249;</a>
+                        style="margin-right: 50px; margin-left: 15px; color: black;font-size: 50px;width: 50px;height: 50px;">&#8249;</a>
                     profilterapis
                 </h2>
             </div>
@@ -45,7 +44,7 @@
             <div class="namaterapis">
                 <div class="">
                     <div class="centered">
-                        <h4>dr. christiana baldwin, S.Psi., M.Psi.i</h4>
+                        <h4>dr.Jennie</h4>
                         <p>Psikolog klinis</p>
                         <p>Pendidikan: Universitas Persada YAI</p>
                     </div>
@@ -54,11 +53,7 @@
         </div>
         <div>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
+
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -67,13 +62,13 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="20180912_103117.jpg" alt="First slide">
+                            <img class="d-block w-100" src="20180912_103117-min.jpg" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="-52.DSC_1944.jpg" alt="Second slide">
+                            <img class="d-block w-100" src="-52.DSC_1944-min.jpg" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="pake27.jpg" alt="Third slide">
+                            <img class="d-block w-100" src="pake27-min (1).jpg" alt="Third slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -96,7 +91,8 @@
                             <p>Jl. Alternatif Transyogi No.2, RW.9, Cibubur, Kec. Jatisampurna, Kota Bks, Jawa Barat
                                 17435
                             </p>
-                            <button class="btn btn-warning" type="submit">buat janji</button>
+                            <button class="btn btn-warning" onclick="addToCalender('dr. Jennie')">membuat
+                                jadwal</button>
                         </div>
                     </div>
                 </div>
@@ -107,7 +103,7 @@
                             <h5>rumah sakit melia</h5>
                             <p>Jl. Alternatif Cibubur No.KM.1, Harjamukti, Kec. Cimanggis, Kota Depok, Jawa Barat 16454
                             </p>
-                            <button class="btn btn-warning" type="submit">buat janji</button>
+                            <button class="btn btn-warning" onclick="addToCalender('dr Jennie')">membuat jadwal</button>
                         </div>
                     </div>
                 </div>
@@ -115,8 +111,6 @@
         </div>
 
     </div>
-    <!-- href="https://api.whatsapp.com/send?phone=628521742123&text+alo alo">send
-        message -->
     <!--JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -128,5 +122,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="./profilterapis.js"></script>
 </body>
+
 </html>
