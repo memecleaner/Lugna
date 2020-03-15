@@ -1,9 +1,10 @@
 .lingkaran{
     height: 40px;
-  width: 40px;
-  background-color: white;
-  border-radius: 50%;
-  display: inline-block;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 0.1em;
 }
 footer{
     /* margin: 10px; */
@@ -16,11 +17,12 @@ footer{
 *{
     box-sizing: border-box;
 }
-
+.emojis{
+    vertical-align: inherit;
+    width: 40px;
+}
 .addnewjurnal{
     position: fixed;
     display: flex;
-    justify-content: space-around;
-    margin-top: 200px;
-    margin-left: 80px;
+    justify-content: center;
 }
